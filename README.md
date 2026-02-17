@@ -2,11 +2,11 @@
 
 An intelligent news research assistant built using LangChain that allows users to analyze multiple news articles and ask natural language questions to get accurate, source-backed answers using Retrieval-Augmented Generation (RAG).
 
-📌 Overview
+📌 **Overview
 
 This project processes unstructured news articles from given URLs, converts them into vector embeddings, stores them in a vector database, and retrieves relevant information to answer user queries using a Large Language Model.
 
-🚀 Features
+🚀 **Features
 
 Upload and process multiple news article URLs
 
@@ -18,7 +18,8 @@ Source attribution for generated answers
 
 Efficient retrieval using FAISS vector database
 
-🧠 Architecture / Workflow
+
+🧠 **Architecture / Workflow:
 
 User provides news article URLs
 
@@ -36,7 +37,8 @@ Relevant chunks are retrieved via similarity search
 
 LLM generates the final answer with sources
 
-🛠️ Tech Stack
+
+🛠️ **Tech Stack:
 
 Language: Python
 
